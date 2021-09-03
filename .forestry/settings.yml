@@ -26,9 +26,8 @@ sections:
 - type: document
   path: documents
   label: Documents
-  match: "**/*"
-upload_dir: uploads
-public_path: "/uploads"
+upload_dir: upload
+public_path: "/media"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
