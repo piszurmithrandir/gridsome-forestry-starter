@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
+- type: heading
+  label: Tartalmak
 - type: directory
   path: projects
   label: Projects
@@ -21,6 +23,10 @@ sections:
 - type: document
   path: data/theme.json
   label: Theme config
+- type: document
+  path: documents
+  label: Documents
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
